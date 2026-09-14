@@ -1,0 +1,18 @@
+{
+  "model_name": "BaggingClassifier",
+  "base_estimator": "DecisionTreeClassifier",
+  "trained_at": "2026-09-14T12:23:13.899665+00:00",
+  "n_features_selected": 1,
+  "n_features_total": 29,
+  "test_metrics": {
+    "accuracy": 0.8571,
+    "precision": 0.8571,
+    "recall": 1.0,
+    "f1_score": 0.9231,
+    "roc_auc": 0.4062
+  },
+  "training_rows": 220,
+  "test_rows": 56,
+  "dataset_path": "D:\\lung-cancer-risk-prediction\\lung-cancer-risk-prediction\\ml-service\\data\\lung_cancer.csv",
+  "training_duration_seconds": 3.31
+}
